@@ -453,6 +453,11 @@ h3 {
   padding-left: 18px;
 }
 
+.publication-note {
+  margin: 12px 0 0;
+  color: var(--ink-soft);
+}
+
 .publication-group {
   padding-top: 8px;
   border-top: 1px solid var(--line);
