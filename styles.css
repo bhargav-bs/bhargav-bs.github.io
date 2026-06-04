@@ -180,12 +180,27 @@ h3 {
 .portrait-note {
   color: var(--ink-soft);
 }
+.hero-summary,
+.section-heading p,
+.timeline-item p,
+.contact-card p,
+.vision-copy p,
+.intro-card p,
+.value-card p,
+.service-copy,
+.service-item p,
+.strand p,
+.publication-note,
+.publication-list,
+.football-figure figcaption,
+.research-feature-copy p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .hero-summary {
   max-width: 58ch;
   font-size: 1.02rem;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .hero-summary-soft {
@@ -330,8 +345,6 @@ h3 {
   max-width: 34rem;
   font-size: 1.04rem;
   color: var(--ink-soft);
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .service-list {
@@ -455,15 +468,11 @@ h3 {
 .publication-list {
   margin: 12px 0 0;
   padding-left: 18px;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .publication-note {
   margin: 10px 0 0;
   color: var(--ink-soft);
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .football-grid {
@@ -499,8 +508,6 @@ h3 {
   padding-top: 8px;
   border-top: 1px solid var(--line);
 }
-
-.intro-card p,
 .vision-copy p,
 .value-card p,
 .timeline-item p,
