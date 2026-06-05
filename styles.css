@@ -92,8 +92,8 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
-  gap: 28px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 20px;
   align-items: start;
   min-height: auto;
   padding-top: 18px;
@@ -162,7 +162,6 @@ h3 {
 }
 
 .hero-role {
-  max-width: 24ch;
   font-size: clamp(1.2rem, 2vw, 1.55rem);
   font-weight: 650;
   line-height: 1.28;
@@ -199,7 +198,6 @@ h3 {
 }
 
 .hero-summary {
-  max-width: 58ch;
   font-size: 1.02rem;
 }
 
