@@ -1,10 +1,14 @@
 # Bhargav B S Website
 
-Static personal website for GitHub Pages.
+Static multipage personal website for GitHub Pages.
 
 ## Files
 
-- `index.html` - main site page
+- `index.html` - home page
+- `about.html` - background, values, and experience
+- `research.html` - research themes and data work
+- `writing.html` - publications, public writing, and Substack work
+- `contact.html` - contact and collaboration details
 - `styles.css` - site styling
 - `assets/` - images and visual assets
 

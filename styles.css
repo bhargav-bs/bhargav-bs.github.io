@@ -86,8 +86,28 @@ a {
   opacity: 0.86;
 }
 
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+  opacity: 1;
+}
+
 .section {
   padding: 34px 0;
+}
+
+.page-intro {
+  max-width: 760px;
+  padding-top: 22px;
+}
+
+.page-intro h1 {
+  margin-bottom: 12px;
+}
+
+.page-intro p {
+  color: var(--ink-soft);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .hero {
@@ -351,6 +371,10 @@ h3 {
   gap: 16px;
 }
 
+.service-item h3 a {
+  text-decoration: none;
+}
+
 .section-accent {
   position: relative;
 }
@@ -535,11 +559,25 @@ h3 {
   padding-top: 10px;
 }
 
-.contact-card a {
+.contact-card > a {
   display: block;
   width: fit-content;
   margin-top: 10px;
   font-weight: 700;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 0 28px;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.site-footer a {
+  text-decoration: none;
 }
 
 @keyframes rise {
@@ -578,6 +616,10 @@ h3 {
 
   .site-header {
     padding: 0 0 16px;
+  }
+
+  .site-footer {
+    flex-direction: column;
   }
 
   .hero-copy,
